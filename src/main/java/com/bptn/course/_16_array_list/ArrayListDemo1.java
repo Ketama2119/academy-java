@@ -11,23 +11,29 @@ public class ArrayListDemo1 {
 		names.add("Alice");
 		names.add("Bob");
 		names.add("Charlie");
+		// out put using enhanced loop
+		for (String elment : names) {
+			System.out.println(elment);
 
-		// Print the ArrayList
-		System.out.println("Names: " + names); // Output: Names: [Alice, Bob, Charlie]
+		}
+		System.out.println(names.size());
 
-		// Get an element by index
-		String secondName = names.get(1);
-		System.out.println("Second Name: " + secondName); // Output: Bob
-
-		// Remove an element by index
-		names.remove(0);
-		System.out.println("After removal: " + names); // Output: [Bob, Charlie]
-
-		// Set (replace) an element
-		names.set(1, "David");
-		System.out.println("After replacement: " + names); // Output: [Bob, David]
-
-		// Get the size of the ArrayList
-		System.out.println("Size: " + names.size()); // Output: 2
+//		// Print the ArrayList
+//		System.out.println("Names: " + names); // Output: Names: [Alice, Bob, Charlie]
+//
+//		// Get an element by index
+//		String secondName = names.get(1);
+//		System.out.println("Second Name: " + secondName); // Output: Bob
+//
+//		// Remove an element by index
+//		names.remove(0);
+//		System.out.println("After removal: " + names); // Output: [Bob, Charlie]
+//
+//		// Set (replace) an element
+//		names.set(1, "David");
+//		System.out.println("After replacement: " + names); // Output: [Bob, David]
+//
+//		// Get the size of the ArrayList
+//		System.out.println("Size: " + names.size()); // Output: 2
 	}
 }
